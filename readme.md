@@ -2,20 +2,20 @@
 
 ## ${\color{orange}WILDCARDS}$
 
-| Operator | Description | Example  |
-| :--------- | :--------- | :--------- |
-|*	|Matches n character or we can say all character|
-|?	 |Matches only one character|
-|{}	|Used to give the range to pefrom the task n t|
-|[]	|Used to find any later present inside bracket |example-> ls -la *[cd]*|
-|/usr/bin or /usr/sbin	|All the system commands are present in this folder|
-|chown	|Used to change the user of file/dir  |
-|Chgrp 	|Used to change the group of file/dir|
-|chmod	|Used to change the permission of file/dir|
-|Groupadd	|Used to add group|
-|Groupmod	|Used to update created group|
-|Ueradd /adduser	|Used to add user|
-|usermod	|Used to update the user|
+>| Operator | Description | Example  |
+>| :--------- | :--------- | :--------- |
+>|*	|Matches n character or we can say all character|
+>|?	 |Matches only one character|
+>|{}	|Used to give the range to pefrom the task n t|
+>|[]	|Used to find any later present inside bracket |example-> ls -la *[cd]*|
+>|/usr/bin or /usr/sbin	|All the system commands are present in this folder|
+>|chown	|Used to change the user of file/dir  |
+>|Chgrp 	|Used to change the group of file/dir|
+>|chmod	|Used to change the permission of file/dir|
+>|Groupadd	|Used to add group|
+>|Groupmod	|Used to update created group|
+>|Ueradd /adduser	|Used to add user|
+>|usermod	|Used to update the user|
 
 <br>
 
@@ -26,18 +26,18 @@
 ## ${\color{orange}LS}$
 Used to find check the content of director
     
-| Option     | Description | 
-| :--------- | :---------  |
-|-l	         |Give the list form of content |
-|-n	         |Give the info about GID and UID of directory|
-|-a	         |Used to see all hidden file too|
-|-A	         |Used to see all the hidden file without . And ..|
-|-lt	     |Used to sort files according to time|
-|-s	         |Show file size|
-|-h	         |show file size in human readable form |
-|—author	 |Print the name of the user|
-|-d          |	Print only list of directory|
-|1	         |Print the list in vertical lin|
+>| Option     | Description | 
+>| :--------- | :---------  |
+>|-l	         |Give the list form of content |
+>|-n	         |Give the info about GID and UID of directory|
+>|-a	         |Used to see all hidden file too|
+>|-A	         |Used to see all the hidden file without . And ..|
+>|-lt	     |Used to sort files according to time|
+>|-s	         |Show file size|
+>|-h	         |show file size in human readable form |
+>|—author	 |Print the name of the user|
+>|-d          |	Print only list of directory|
+>|1	         |Print the list in vertical lin|
 
 <br>
 
@@ -48,10 +48,10 @@ Used to find check the content of director
 ## ${\color{orange}MAN}$
 
     1. Used to get the manual of the command 
-| Options  | Description         |
-|---       |---                  |
-|-f	       |Used to give the short description of the command  |
-|-w	       |Used to get the location of the command|
+>| Options  | Description         |
+>|---       |---                  |
+>|-f	       |Used to give the short description of the command  |
+>|-w	       |Used to get the location of the command|
 
 <br>
 
@@ -63,11 +63,11 @@ Used to find check the content of director
 
     1. Used to create the directory in the system 
 	2. mkdir path/folder_name
-|Options    | Description  |
-|---        |----          |    
-|-p	        |Used to create the parent also if not presented|
-|Relative path 	|Starting from current directory|
-|Absolute path	|Starting from home directory |
+>|Options    | Description  |
+>|---        |----          |    
+>|-p	        |Used to create the parent also if not presented|
+>|Relative path 	|Starting from current directory|
+>|Absolute path	|Starting from home directory |
 
 <br>
 
@@ -78,10 +78,10 @@ Used to find check the content of director
 ## ${\color{orange}Home}$
     1. Moving directly to the home directory
    
-|Options    | Description  |
-|---        |----          |    
-|Cd $	|Redirection toward home directory|
-|Cd ~	|Redirection toward home directory|
+>|Options    | Description  |
+>|---        |----          |    
+>|Cd $	|Redirection toward home directory|
+>|Cd ~	|Redirection toward home directory|
 
 <br>
 
@@ -94,10 +94,10 @@ Used to find check the content of director
     2. rmdir folder_path
     3. rm path/folder of file
    
-|options    | Description  |
-|---        |----          |    
-|-p	|Removing the parent with the child|
-|-rf	|Removing the directory with the content as well|
+>|options    | Description  |
+>|---        |----          |    
+>|-p	|Removing the parent with the child|
+>|-rf	|Removing the directory with the content as well|
 
 <br>
 
@@ -130,12 +130,12 @@ Used to find check the content of director
     1. Used to count the details of the file such as number of line, word count and character of the file 
     2.  WC filename
     3. To get the particular details of the file used
-|options    | Description  |
-|---        |----          |    
-| -L	    |Number of line used|
-|-w	        |Total words|
-|-m	        |Total byte count|
-|-c	        |Total character count |
+>|options    | Description  |
+>|---        |----          |    
+>| -L	    |Number of line used|
+>|-w	        |Total words|
+>|-m	        |Total byte count|
+>|-c	        |Total character count |
 
 <br>
 
@@ -190,9 +190,9 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
     2. cp source destination
     3. While copy we can change the file/folder name also
 
-|options    | Description  |
-|---        |----          |  
-|-r	|Used when our folder is not empty and we have to transfer file in that folder also [recursively]|
+>|options    | Description  |
+>|---        |----          |  
+>|-r	|Used when our folder is not empty and we have to transfer file in that folder also [recursively]|
 
 <br>
 
@@ -244,7 +244,22 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 
 ## ${\color{orange}SED}$
     1. Used to set the text on current text but did not affect the current text [same work as replace in python]
-    2. Echo ‘hello’ | sed ’s/hello/vaibhav/’. —> output vaibhav
+    2. Echo ‘hello’ | sed ’s/hello/vaibhav/g’. —> output vaibhav
+    3. g stands for global 
+    4. -I issued to update the changes in the file 
+>    5. To delete the line matching the string we used 
+>>       1. Sed ‘/name/d’ file name
+>    6. Deleting X line
+>>       1. sed ‘1d’ fike_name
+>>       2. sed ‘1,2d’ file_name
+>>         1. 1 -> remove line 1
+>>         2. 1,2 remove line 1 and 2
+>    7. Removing empty line from file
+>>        1. Sed ‘/^$/d’ file_name
+>    8. Adding space after every line 
+>>        1. Sed G filename
+>    9. Adding changes except one line 
+>>        1. Sed ‘X!s///’ file_name
 
 <br>
 
@@ -285,12 +300,12 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 ## ${\color{orange}LOCATE}$
     1. It is used to locate the file in database instead of file system
 
-|LOACTE    | FIND  |
-|---        |----          |  
-|It is used to find the file in datbase	|It is used to find the file in file system|
-|Fast as compared to find	|slow|
-|We don’t have to give any location just type locate filename	|It needs all the folder path type to find it|
-|To locate the file database should be updated 	|There is no requirement to update the datbase |
+>|LOACTE    | FIND  |
+>|---        |----          |  
+>|It is used to find the file in datbase	|It is used to find the file in file system|
+>|Fast as compared to find	|slow|
+>|We don’t have to give any location just type locate filename	|It needs all the folder path type to find it|
+>|To locate the file database should be updated 	|There is no requirement to update the datbase |
 
 <br>
 
@@ -300,12 +315,12 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 
 ## ${\color{orange}UID}$
     UID -> Unique user id
-|TYPE    | Description  |
-|---        |----          |  
-|0	|Reserved for root |
-|1-99	|Reserved for predefined account|
-|100-999|	Resered for system admin|
-|1000-	|Open for the uers|
+>|TYPE    | Description  |
+>|---        |----          |  
+>|0	|Reserved for root |
+>|1-99	|Reserved for predefined account|
+>|100-999|	Resered for system admin|
+>|1000-	|Open for the uers|
 
 <br>
 
@@ -315,11 +330,11 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 
 ## ${\color{orange}GID}$
     GID -> Group identifier
-|options    | Description  |
-|---        |----          |  
-|0	|Reserved for root|
-|1-99	|Reserved for applications|
-|100-	|Open for everybody|
+>|options    | Description  |
+>|---        |----          |  
+>|0	|Reserved for root|
+>|1-99	|Reserved for applications|
+>|100-	|Open for everybody|
 
 <br>
 
@@ -340,11 +355,11 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
         1. This file store the info about the password of user
         2. Location -> /etc/shadow
         3. Username : hasedpass : last_pass_changed_days [from 1 jan 1970] : min age of pass : max_age_pass : inactive days
-|options    | Description  |
-|---        |----          |  
-|*	|No passowrd|
-|Hashed	|Password is hidden with logs|
-|!	|Passowrd is never set|
+>|options    | Description  |
+>|---        |----          |  
+>|*	|No passowrd|
+>|Hashed	|Password is hidden with logs|
+>|!	|Passowrd is never set|
 	4. Group File->
 		1. Used to store the group info and the user assigned to the group
 		2. Location -> /etc/group
@@ -375,13 +390,13 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
         2. adduser
     2. Adduser is the interactive way to add user and in background it uses useradd to create user
     3. Useradd->
-|options    | Description  |
-|---        |----          |  
-|-d	|Used to manipulate the used home directory|
-|-p	|Used to set the password|
-|-c	|Used to add description |
-|-s	|Used to add shell for user|
-|-m	|Used to create home directory|
+>|options    | Description  |
+>|---        |----          |  
+>|-d	|Used to manipulate the used home directory|
+>|-p	|Used to set the password|
+>|-c	|Used to add description |
+>|-s	|Used to add shell for user|
+>|-m	|Used to create home directory|
         # Basic command -> Usedadd -m new_user
 
 <br>
@@ -404,16 +419,16 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 ## ${\color{orange}USERMOD}$
     1. Used to manipulate the setteing to current user 
     2. Usermod username
-| Options    | Description  |
-|---        |----          |
-|-c	|Adding comment
-|-d	|Manipulation home directory
-|-g	|updating primary group
-|-G	|Updating secondary group 
-|-s	|Updating shell
-|-p	|Updating password
-|-u	|Updating userid
-|-a	|Used to append user to other group  without removing it From current group         
+>| Options    | Description  |
+>|---        |----          |
+>|-c	|Adding comment
+>|-d	|Manipulation home directory
+>|-g	|updating primary group
+>|-G	|Updating secondary group 
+>|-s	|Updating shell
+>|-p	|Updating password
+>|-u	|Updating userid
+>|-a	|Used to append user to other group  without removing it From current group         
 
 <br>
 
@@ -424,16 +439,16 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 ## ${\color{orange}FILE}$
     1. Used to give the type of the file 
     2. Files are classified into different types
-Expression	Type	Description
-|  Types    | MEANING  |  DESCRIPTION   |
-|---        |----          | --- |
-|-	|Regular file	|
-|d	|Directory	|
-|b	|Block file	|
-|l	|Symbolic file 	|Files or directory which are pointing to other file or directory|
-|-	|Hardlink file	|
-|s	|Socket file 	|The files which create the communication between tow process
-|p	|Pipefile	
+
+>|  Types    | MEANING  |  DESCRIPTION   |
+>|---        |----          | --- |
+>|-	|Regular file	|
+>|d	|Directory	|
+>|b	|Block file	|
+>|l	|Symbolic file 	|Files or directory which are pointing to other file or directory|
+>|-	|Hardlink file	|
+>|s	|Socket file 	|The files which create the communication between tow process
+>|p	|Pipefile	
 
 <br>
 
@@ -484,12 +499,12 @@ Expression	Type	Description
 
 ## ${\color{orange}REDIRECTIONS}$
     1. Saving the input, output and errors in file we use re directions
-|Type	|Description	|Process	|Example
-|---|---|---|---|
-Input redirection| 	Keyboard input	|Cat > or >> filename 	|Cat > file.txt
-Output|	Output of other command	|Command > or >> fname	|Echo ‘’Hello” > file.txt
-Error |	After running something and we get error so to store the error we use|	Command 2> or 2>> fname|	Sum 2> file.txt [as sum is not a command it will store error]
-output and error|	If command give output as well but gives error so we need to store the error also so we use this reduction|	Command &> or &>> fname	
+>|Type	|Description	|Process	|Example
+>|---|---|---|---|
+>Input redirection| 	Keyboard input	|Cat > or >> filename 	|Cat > file.txt
+>Output|	Output of other command	|Command > or >> fname	|Echo ‘’Hello” > file.txt
+>Error |	After running something and we get error so to store the error we use|	Command 2> or 2>> fname|	Sum 2> file.txt [as sum is not a command it will store error]
+>output and error|	If command give output as well but gives error so we need to store the error also so we use this reduction|	Command &> or &>> fname	
 
 <br>
 
@@ -523,11 +538,11 @@ output and error|	If command give output as well but gives error so we need to s
     2. groupadd -options new_name
 
 
-| Options    | Description  |
-|---        |----          |
-|-g	|Used to give the GID to gropu|
-|-o	|Used to create group with same kid|
-|-p	|Used to set the password for the group|
+>| Options    | Description  |
+>|---        |----          |
+>|-g	|Used to give the GID to gropu|
+>|-o	|Used to create group with same kid|
+>|-p	|Used to set the password for the group|
 
 <br>
 
@@ -538,10 +553,10 @@ output and error|	If command give output as well but gives error so we need to s
 ## ${\color{orange}USERDEL}$
     1. Used to delete user from the system 
     2. userdel -opetions user_name
-| Options    | Description  |
-|---        |----          |
-|-f	|Forcefully remove all the files|
-|-r	|Remove home directory|
+>| Options    | Description  |
+>|---        |----          |
+>|-f	|Forcefully remove all the files|
+>|-r	|Remove home directory|
 
 <br>
 
@@ -564,11 +579,11 @@ output and error|	If command give output as well but gives error so we need to s
 
 ## ${\color{orange}PERMISSIONS~~IN~~LINUX}$
     1. There are three type of permission in linux
-|Permissions 	|Symbolic text	|Numeric method|
-|---|---|---|
-|READ |	r	|4
-|WRITE	|w|	2
-|EXECUTE	|x	|1
+>|Permissions 	|Symbolic text	|Numeric method|
+>|---|---|---|
+>|READ |	r	|4
+>|WRITE	|w|	2
+>|EXECUTE	|x	|1
     2. General Formate of permission -> user group others                                                           [rwx   rwx    rwx ]
 
 <br>
@@ -646,3 +661,95 @@ output and error|	If command give output as well but gives error so we need to s
             1. -m stands for modify
             2. -x stands for remove persmissom ,permission part will be removed   rest whole command will be same 
         2. Getfacl
+
+
+## ${\color{orange}SORT}$
+    1. Used to sort the data 
+    2. Sort file_name/command
+   
+|Options | Description |
+| ---    |  ---        |
+|-kX     | Sorting based on character number|
+|-r      | Sort in reverse order|
+
+<br>
+
+***
+
+<br>
+
+## ${\color{orange}UNIQ}$
+    1. Help to find the unique in the file 
+    2. To apply uniq, the best practice is to sort the dat first and then apply uniq
+|Options	|Description|
+|---	|---|
+|-c	|Show the count how many times the word occurress in file
+|-d	|Shows only repeated words
+
+<br>
+
+***
+
+<br>
+
+## ${\color{orange}ZIP}$
+    1. Used to compresse a file 
+    2. tar, gzip, bzip
+    3. tar cvf filename.tar folder/file
+    4. c -> create
+    5. v -> verbose
+    6. f -> fourcefuly
+
+
+<br>
+
+***
+
+<br>
+
+## ${\color{orange}Truncate}$
+    1. Used to add or delete the file size 
+    2. Truncate -option size filename 
+|Options|	Description|
+|---|---|
+|-s	|Used to add or remove the byte assign to the file  |
+    3. It will not compress the file so be careful while using the option
+
+<br>
+
+***
+
+<br>
+
+## ${\color{orange}Split}$
+     1. Used to split the file according to our need
+    1. Split -l line_numbers file_name
+    2. It will slip the file based on one number and create a own name for each file when every if split the file in line numbers
+
+<br>
+
+***
+
+<br>
+
+## ${\color{orange}User mentoring }$
+>|command|description|
+>|---|---|
+>|who|tells how many people are login to system and >terminal numbers|
+>|last|tells who login into system from start|
+>|w|same as who but tells move info like cup usage and all|
+>|pinky|tells who in currently login to the system|
+>|id|tell the uid, gid of user|
+
+<br>
+
+***
+
+<br>
+
+## ${\color{orange}Talking~~to~~user}$
+>|Command|Description|
+>|---|---|
+>|user|tells the name of the active uses|
+>|wall|sending msg to all the users |
+>|which|sending message to particular active user|
