@@ -171,13 +171,13 @@ Used to find check the content of director
 <br>
 
 ## ${\color{orange}Reading files}$
- 
-11.  Reding file 
-View file_name	Reading file
-More filename	Next line on enter and q for exit
-Less filename	Next line on enter and q for exit and we can use arrows to go back and forth
-Head -nX	Used to read top Lines of the file (by default it is set to 10 lines)                             [X-> number]
-Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) [X-> number]
+>|||
+>|---|---| 
+>|View file_name|	Reading file
+>|More filename	|Next line on enter and q for exit
+>|Less filename|	Next line on enter and q for exit and we can use arrows to go back and forth
+>|Head -nX	|Used to read top Lines of the file (by default it is set to 10 lines)                             [X-> number]
+>|Tail -nX	|Used to read last Lines of the file (by default it is set to 10 lines) [X-> number]
 
 <br>
 
@@ -342,7 +342,7 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 
 <br>
 
-## ${\color{orange}BASIC~~FILE~~STRUCTURE}$
+## ${\color{orange}BASIC~FILE~STRUCTURE}$
     1. passwd -> 
         1. Store the info about the users, group, shell, password 
         2. But password is not stored here 
@@ -643,7 +643,7 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 
 <br>
 
-## ${\color{orange}LS}$
+## ${\color{orange}File structure}$
      File Used in linux and their meaning 
   <IMG style='width:100%; height:400px' SRC='./file-type.JPEG'/>
 
@@ -722,9 +722,9 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 <br>
 
 ## ${\color{orange}Split}$
-     1. Used to split the file according to our need
-    1. Split -l line_numbers file_name
-    2. It will slip the file based on one number and create a own name for each file when every if split the file in line numbers
+    1. Used to split the file according to our need
+    2. Split -l line_numbers file_name
+    3. It will slip the file based on one number and create a own name for each file when every if split the file in line numbers
 
 <br>
 
@@ -752,4 +752,4 @@ Tail -nX	Used to read last Lines of the file (by default it is set to 10 lines) 
 >|---|---|
 >|user|tells the name of the active uses|
 >|wall|sending msg to all the users |
->|which|sending message to particular active user|
+>|which usern|sending message to particular active user|
